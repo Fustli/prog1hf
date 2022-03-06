@@ -1,0 +1,1035 @@
+# depslib dependency file v1.0
+1606675550 source:c:\users\felhasználó\desktop\snake v2.0\crash.c
+	"ini.h"
+	"snake.h"
+
+1606581245 c:\users\felhasználó\desktop\snake v2.0\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\begin_code.h
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\close_code.h
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 c:\program files\codeblocks\mingw\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1541001618 c:\program files\codeblocks\mingw\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1606498656 c:\users\felhasználó\desktop\snake v2.0\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606674934 source:c:\users\felhasználó\desktop\snake v2.0\dirs.c
+	"ini.h"
+
+1606674933 source:c:\users\felhasználó\desktop\snake v2.0\field.c
+	"ini.h"
+
+1606676024 source:c:\users\felhasználó\desktop\snake v2.0\main.c
+	"menu.h"
+
+1606650245 c:\users\felhasználó\desktop\snake v2.0\apple.h
+	"snake.h"
+
+1606242397 c:\users\felhasználó\desktop\snake v2.0\timing.h
+
+1606583798 c:\users\felhasználó\desktop\snake v2.0\dirs.h
+
+1606676454 c:\users\felhasználó\desktop\snake v2.0\snake.h
+	"dirs.h"
+
+1606675555 c:\users\felhasználó\desktop\snake v2.0\crash.h
+	"snake.h"
+
+1606595555 c:\users\felhasználó\desktop\snake v2.0\field.h
+
+1606502979 c:\users\felhasználó\desktop\snake v2.0\windowini.h
+
+1606673385 source:c:\users\felhasználó\desktop\snake v2.0\snake.c
+	"ini.h"
+	"dirs.h"
+
+1606242397 source:c:\users\felhasználó\desktop\snake v2.0\timing.c
+	"ini.h"
+
+1606502933 source:c:\users\felhasználó\desktop\snake v2.0\windowini.c
+	"ini.h"
+
+1606674996 source:c:\users\felhasználó\desktop\snake v2.0\apple.c
+	"ini.h"
+	"snake.h"
+
+1518379110 c:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1606668113 c:\users\felhasználó\desktop\snake v2.0\single.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1606670112 source:c:\users\felhasználó\desktop\snake v2.0\single.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606595616 c:\users\felhasználó\desktop\snake v2.0\multiplayer.h
+	"ini.h"
+
+1606675332 source:c:\users\felhasználó\desktop\snake v2.0\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606674932 source:c:\users\felhasználó\desktop\snake v2.0\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+
+1606670119 c:\users\felhasználó\desktop\snake v2.0\menu.h
+	"ini.h"
+
+1606668113 c:\users\felhasználó\desktop\snake v2.0\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1606676217 source:c:\users\felhasználó\desktop\snake v2.0\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606674996 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\apple.c
+	"ini.h"
+	"snake.h"
+
+1606581245 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1606498656 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606676454 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\snake.h
+	"dirs.h"
+
+1606583798 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\dirs.h
+
+1606675550 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\crash.c
+	"ini.h"
+	"snake.h"
+
+1606674934 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\dirs.c
+	"ini.h"
+
+1606674933 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\field.c
+	"ini.h"
+
+1606676024 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\main.c
+	"menu.h"
+
+1606670119 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\menu.h
+	"ini.h"
+
+1606674932 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+
+1606668113 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1606650245 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\apple.h
+	"snake.h"
+
+1606242397 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\timing.h
+
+1606675555 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\crash.h
+	"snake.h"
+
+1606595555 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\field.h
+
+1606502979 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\windowini.h
+
+1606595616 c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\multiplayer.h
+	"ini.h"
+
+1606676454 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\snake.c
+	"ini.h"
+	"dirs.h"
+
+1606242397 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\timing.c
+	"ini.h"
+
+1606679362 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606679362 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606677998 source:c:\users\felhasználó\desktop\nhf - dn04pz\snake v2.0\windowini.c
+	"ini.h"
+
+1606674996 source:c:\users\felhasználó\desktop\snake v3.0\apple.c
+	"ini.h"
+	"snake.h"
+
+1606581245 c:\users\felhasználó\desktop\snake v3.0\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1606498656 c:\users\felhasználó\desktop\snake v3.0\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606676454 c:\users\felhasználó\desktop\snake v3.0\snake.h
+	"dirs.h"
+
+1606583798 c:\users\felhasználó\desktop\snake v3.0\dirs.h
+
+1606675550 source:c:\users\felhasználó\desktop\snake v3.0\crash.c
+	"ini.h"
+	"snake.h"
+
+1606674934 source:c:\users\felhasználó\desktop\snake v3.0\dirs.c
+	"ini.h"
+
+1606674933 source:c:\users\felhasználó\desktop\snake v3.0\field.c
+	"ini.h"
+
+1606676024 source:c:\users\felhasználó\desktop\snake v3.0\main.c
+	"menu.h"
+
+1606670119 c:\users\felhasználó\desktop\snake v3.0\menu.h
+	"ini.h"
+
+1606686694 source:c:\users\felhasználó\desktop\snake v3.0\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+	"recordShow.h"
+
+1606668113 c:\users\felhasználó\desktop\snake v3.0\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1606650245 c:\users\felhasználó\desktop\snake v3.0\apple.h
+	"snake.h"
+
+1606242397 c:\users\felhasználó\desktop\snake v3.0\timing.h
+
+1606675555 c:\users\felhasználó\desktop\snake v3.0\crash.h
+	"snake.h"
+
+1606595555 c:\users\felhasználó\desktop\snake v3.0\field.h
+
+1606502979 c:\users\felhasználó\desktop\snake v3.0\windowini.h
+
+1606595616 c:\users\felhasználó\desktop\snake v3.0\multiplayer.h
+	"ini.h"
+
+1606684736 source:c:\users\felhasználó\desktop\snake v3.0\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606685835 source:c:\users\felhasználó\desktop\snake v3.0\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606242397 source:c:\users\felhasználó\desktop\snake v3.0\timing.c
+	"ini.h"
+
+1606684569 source:c:\users\felhasználó\desktop\snake v3.0\snake.c
+	"ini.h"
+	"dirs.h"
+
+1606684956 source:c:\users\felhasználó\desktop\snake v3.0\windowini.c
+	"ini.h"
+
+1606687368 source:c:\users\felhasználó\desktop\snake v3.0\recordshow.c
+	"ini.h"
+
+1606685710 c:\users\felhasználó\desktop\snake v3.0\recordshow.h
+	"ini.h"
+
+1606674996 source:c:\users\felhasználó\desktop\snake v3.1\apple.c
+	"ini.h"
+	"snake.h"
+
+1606581245 c:\users\felhasználó\desktop\snake v3.1\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1606498656 c:\users\felhasználó\desktop\snake v3.1\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606676454 c:\users\felhasználó\desktop\snake v3.1\snake.h
+	"dirs.h"
+
+1606583798 c:\users\felhasználó\desktop\snake v3.1\dirs.h
+
+1606675550 source:c:\users\felhasználó\desktop\snake v3.1\crash.c
+	"ini.h"
+	"snake.h"
+
+1606674934 source:c:\users\felhasználó\desktop\snake v3.1\dirs.c
+	"ini.h"
+
+1606674933 source:c:\users\felhasználó\desktop\snake v3.1\field.c
+	"ini.h"
+
+1606676024 source:c:\users\felhasználó\desktop\snake v3.1\main.c
+	"menu.h"
+
+1606670119 c:\users\felhasználó\desktop\snake v3.1\menu.h
+	"ini.h"
+
+1606906040 source:c:\users\felhasználó\desktop\snake v3.1\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+	"recordShow.h"
+
+1606668113 c:\users\felhasználó\desktop\snake v3.1\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1606650245 c:\users\felhasználó\desktop\snake v3.1\apple.h
+	"snake.h"
+
+1606242397 c:\users\felhasználó\desktop\snake v3.1\timing.h
+
+1606675555 c:\users\felhasználó\desktop\snake v3.1\crash.h
+	"snake.h"
+
+1606595555 c:\users\felhasználó\desktop\snake v3.1\field.h
+
+1606502979 c:\users\felhasználó\desktop\snake v3.1\windowini.h
+
+1606595616 c:\users\felhasználó\desktop\snake v3.1\multiplayer.h
+	"ini.h"
+
+1606685710 c:\users\felhasználó\desktop\snake v3.1\recordshow.h
+	"ini.h"
+
+1606684736 source:c:\users\felhasználó\desktop\snake v3.1\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606906112 source:c:\users\felhasználó\desktop\snake v3.1\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"dirs.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1606684569 source:c:\users\felhasználó\desktop\snake v3.1\snake.c
+	"ini.h"
+	"dirs.h"
+
+1606242397 source:c:\users\felhasználó\desktop\snake v3.1\timing.c
+	"ini.h"
+
+1606684956 source:c:\users\felhasználó\desktop\snake v3.1\windowini.c
+	"ini.h"
+
+1606242397 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\timing.c
+	"ini.h"
+
+1607723128 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1606498656 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1606684956 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\windowini.c
+	"ini.h"
+
+1607725278 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\apple.c
+	"ini.h"
+	"snake.h"
+
+1607719295 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\snake.h
+	"singleplayer.h"
+	"ini.h"
+
+1607718990 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1607723128 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\apple.h
+	"ini.h"
+
+1606242397 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\timing.h
+
+1607724894 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\crash.h
+	"snake.h"
+
+1606595555 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\field.h
+
+1606502979 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\windowini.h
+
+1607725966 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\crash.c
+	"ini.h"
+	"snake.h"
+
+1607719456 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\field.c
+	"ini.h"
+
+1607720806 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\main.c
+	"menu.h"
+
+1607720644 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\menu.h
+	"ini.h"
+
+1607720691 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+
+1607343187 c:\users\felhasználó\desktop\prog_hazi\snake v3.1\multiplayer.h
+	"ini.h"
+
+1607725966 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1607723743 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1607720880 source:c:\users\felhasználó\desktop\prog_hazi\snake v3.1\snake.c
+	"ini.h"
+
+1607728878 source:c:\egyetem\first half\prog_hazi\snake v3.1\apple.c
+	"ini.h"
+	"snake.h"
+
+1607726728 c:\egyetem\first half\prog_hazi\snake v3.1\ini.h
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+	<SDL2/SDL_mixer.h>
+	"debugmalloc.h"
+
+1606502256 c:\egyetem\first half\prog_hazi\snake v3.1\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1607722895 c:\egyetem\first half\prog_hazi\snake v3.1\snake.h
+	"singleplayer.h"
+	"ini.h"
+
+1607722590 c:\egyetem\first half\prog_hazi\snake v3.1\singleplayer.h
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+
+1607726728 c:\egyetem\first half\prog_hazi\snake v3.1\apple.h
+	"ini.h"
+
+1606245997 c:\egyetem\first half\prog_hazi\snake v3.1\timing.h
+
+1607728494 c:\egyetem\first half\prog_hazi\snake v3.1\crash.h
+	"snake.h"
+
+1606599155 c:\egyetem\first half\prog_hazi\snake v3.1\field.h
+
+1606506579 c:\egyetem\first half\prog_hazi\snake v3.1\windowini.h
+
+1607729566 source:c:\egyetem\first half\prog_hazi\snake v3.1\crash.c
+	"ini.h"
+	"snake.h"
+
+1607723056 source:c:\egyetem\first half\prog_hazi\snake v3.1\field.c
+	"ini.h"
+
+1607724406 source:c:\egyetem\first half\prog_hazi\snake v3.1\main.c
+	"menu.h"
+
+1607724244 c:\egyetem\first half\prog_hazi\snake v3.1\menu.h
+	"ini.h"
+
+1607724291 source:c:\egyetem\first half\prog_hazi\snake v3.1\menu.c
+	"ini.h"
+	"singleplayer.h"
+	"multiplayer.h"
+
+1607346787 c:\egyetem\first half\prog_hazi\snake v3.1\multiplayer.h
+	"ini.h"
+
+1607729566 source:c:\egyetem\first half\prog_hazi\snake v3.1\multiplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+
+1607724480 source:c:\egyetem\first half\prog_hazi\snake v3.1\snake.c
+	"ini.h"
+
+1606688556 source:c:\egyetem\first half\prog_hazi\snake v3.1\windowini.c
+	"ini.h"
+
+1614954984 source:c:\egyetem\first half\prog_hazi\snake v3.1\singleplayer.c
+	"ini.h"
+	"apple.h"
+	"timing.h"
+	"snake.h"
+	"crash.h"
+	"field.h"
+	"windowIni.h"
+	"menu.h"
+

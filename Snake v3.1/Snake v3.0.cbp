@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Snake v3.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Snake v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="SDL2_mixer" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Snake v1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_gfx" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_mixer" />
+			<Add library="SDL2_ttf" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="apple.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apple.h" />
+		<Unit filename="crash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crash.h" />
+		<Unit filename="debugmalloc.h" />
+		<Unit filename="field.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="field.h" />
+		<Unit filename="ini.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="multiplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="multiplayer.h" />
+		<Unit filename="singleplayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="singleplayer.h" />
+		<Unit filename="snake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="snake.h" />
+		<Unit filename="windowIni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="windowIni.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
